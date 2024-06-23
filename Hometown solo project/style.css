@@ -1,0 +1,81 @@
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/verona_da_alto.jpg);
+    background-size: cover;
+    height: 400px;
+    
+}
+
+#title {
+    background-color: #1D3557;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-bottom: -10px;
+}
+
+#presentation {
+    background-color: #457B9D;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 10px;
+    width: 420px;
+    text-align: center;
+}
+
+.general {
+    background-color: #F1FAEE;
+    padding-top: 20px;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    margin-bottom: 40px;
+}
+
+.info-div {
+    width: 200px;
+}
+
+.place-img {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.place-description {
+    color: rgb(48, 145, 128);
+}
+
+.guide-container {
+    background-color: #A8DADC;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.guide-information {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    padding: 10px 0;
+}
+
+#guide-img {
+    border-radius: 30px;
+    width: 180px;
+}
